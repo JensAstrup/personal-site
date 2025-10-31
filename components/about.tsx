@@ -25,6 +25,7 @@ export function About() {
             </p>
           </div>
         </div>
+        <div className="mt-8 border-t border-white/20" />
       </div>
     </section>
   )
