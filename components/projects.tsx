@@ -8,7 +8,7 @@ const projects = [
   },
   {
     name: "Shortcut Assistant",
-    description: "A Chrome extension for power users of Shortcut, a project management tool. Offers AI analysis of task implementation plans, keyboard shortcuts, and integrated cycle/development time stats. ",
+    description: "(Not in active development) A Chrome extension for power users of Shortcut, a project management tool. Offers AI analysis of task implementation plans, keyboard shortcuts, and integrated cycle/development time stats. ",
     link: "https://chromewebstore.google.com/detail/shortcut-assistant/kmdlofehocppnlkpokdbiaalcelhedef",
   },
   {
