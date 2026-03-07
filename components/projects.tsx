@@ -8,7 +8,7 @@ const projects = [
   },
   {
     name: "Trawl",
-    description: "A Vscode extension that auto-completes package names and versions while highglighting outdated dependencies",
+    description: "A VS Code extension that auto-completes package names and versions while highlighting outdated dependencies.",
     link: "https://github.com/VoidWorksIO/trawl",
   },
   {
