@@ -7,6 +7,11 @@ const projects = [
     link: "https://spades.poker",
   },
   {
+    name: "Trawl",
+    description: "A VS Code extension that auto-completes package names and versions while highlighting outdated dependencies.",
+    link: "https://github.com/VoidWorksIO/trawl",
+  },
+  {
     name: "Shortcut Assistant",
     description: "(Not in active development) A Chrome extension for power users of Shortcut, a project management tool. Offers AI analysis of task implementation plans, keyboard shortcuts, and integrated cycle/development time stats.",
     link: "https://chromewebstore.google.com/detail/shortcut-assistant/kmdlofehocppnlkpokdbiaalcelhedef",
