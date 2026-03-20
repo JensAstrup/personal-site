@@ -98,6 +98,7 @@ export function Projects() {
                             width={250}
                             height={54}
                             src={project.productHunt.imageSrc}
+                            loading="lazy"
                           />
                         </a>
                       </div>
