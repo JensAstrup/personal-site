@@ -63,13 +63,13 @@ function RoleCard({ title, period, company, highlights }: (typeof roles)[number]
 
 function Experience() {
   return (
-    <section className="flex items-center justify-center px-6 py-6 pt-4">
+    <section id="experience" className="flex items-center justify-center px-6 py-6 pt-4">
       <div className="max-w-3xl w-full">
         <div className="p-8 md:p-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 tracking-tight">Experience</h2>
           <div className="space-y-8">
             {roles.map((role) => (
-              <RoleCard key={role.period} {...role} />
+              <RoleCard key={`${role.company}-${role.period}`} {...role} />
             ))}
           </div>
           <div className="mt-10 pt-6 border-t border-white/10">

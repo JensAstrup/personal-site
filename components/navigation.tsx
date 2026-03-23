@@ -2,6 +2,9 @@ export function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-6">
       <div className="max-w-7xl mx-auto flex justify-end gap-8">
+        <a href="#experience" className="text-white font-medium hover:text-white/70 transition-colors text-lg">
+          Experience
+        </a>
         <a href="#projects" className="text-white font-medium hover:text-white/70 transition-colors text-lg">
           Projects
         </a>
