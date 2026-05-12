@@ -1,3 +1,6 @@
+import { ReactNode } from 'react'
+
+
 const roles = [
   {
     title: 'Staff Software Engineer',
@@ -42,7 +45,7 @@ const roles = [
   },
 ]
 
-function RoleCard({ title, period, company, highlights }: (typeof roles)[number]) {
+function RoleCard({ title, period, company, highlights }: (typeof roles)[number]): ReactNode {
   return (
     <div className="group">
       <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-2">
@@ -61,7 +64,7 @@ function RoleCard({ title, period, company, highlights }: (typeof roles)[number]
   )
 }
 
-function Experience() {
+function Experience(): ReactNode {
   return (
     <section id="experience" className="flex items-center justify-center px-6 py-6 pt-4">
       <div className="max-w-3xl w-full">
