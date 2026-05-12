@@ -1,4 +1,7 @@
-export function About() {
+import { ReactNode } from "react"
+
+
+function About(): ReactNode {
   return (
     <section className="flex items-center justify-center px-6 py-6 pt-4">
       <div className="max-w-3xl w-full">
@@ -30,3 +33,6 @@ export function About() {
     </section>
   )
 }
+
+export { About }
+

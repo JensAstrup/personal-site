@@ -1,10 +1,13 @@
-import { Hero } from '@/components/hero'
+import React from 'react'
+
 import { About } from '@/components/about'
 import { Experience } from '@/components/experience'
-import { Projects } from '@/components/projects'
+import { Hero } from '@/components/hero'
 import { Navigation } from '@/components/navigation'
+import { Projects } from '@/components/projects'
 
-export default function Home() {
+
+function Home(): React.ReactNode {
   return (
     <main className="relative min-h-screen">
       {/* Background Image */}
@@ -12,10 +15,10 @@ export default function Home() {
         className="fixed inset-0 z-0"
         style={{
           backgroundImage:
-            "url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/adrien-olichon-RCAhiGJsUUE-unsplash-UfZhZodQogRXMCEMrYnfHSQ6JFgNBQ.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
+            'url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/adrien-olichon-RCAhiGJsUUE-unsplash-UfZhZodQogRXMCEMrYnfHSQ6JFgNBQ.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
         }}
       >
         {/* Dark overlay for better text readability */}
@@ -34,3 +37,5 @@ export default function Home() {
     </main>
   )
 }
+
+export default Home
