@@ -1,4 +1,6 @@
-import { ArrowUpRight } from "lucide-react"
+import { ArrowUpRight } from 'lucide-react'
+import { ReactNode } from 'react'
+
 
 interface Project {
   name: string
@@ -13,9 +15,9 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "Spades",
-    description: "A pointing poker application built to integrate seamlessly with Linear to provide teams with an easy way to foster discussion and easily set effort estimations.",
-    link: "https://spades.poker",
+    name: 'Spades',
+    description: 'A pointing poker application built to integrate seamlessly with Linear to provide teams with an easy way to foster discussion and easily set effort estimations.',
+    link: 'https://spades.poker',
     productHunt: {
       href: 'https://www.producthunt.com/products/ace-of-spades/launches/spades-2-0-2?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-spades-2-0-2',
       imageSrc:
@@ -24,9 +26,9 @@ const projects: Project[] = [
     },
   },
   {
-    name: "Trawl",
-    description: "A VS Code extension that auto-completes package names and versions while highlighting outdated dependencies.",
-    link: "https://github.com/VoidWorksIO/trawl",
+    name: 'Trawl',
+    description: 'A VS Code extension that auto-completes package names and versions while highlighting outdated dependencies.',
+    link: 'https://github.com/VoidWorksIO/trawl',
     productHunt: {
       href: 'https://www.producthunt.com/products/trawl-2?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-trawl-3',
       imageSrc:
@@ -36,21 +38,21 @@ const projects: Project[] = [
     },
   },
   {
-    name: "Shortcut Assistant",
-    description: "(Not in active development) A Chrome extension for power users of Shortcut, a project management tool. Offers AI analysis of task implementation plans, keyboard shortcuts, and integrated cycle/development time stats.",
-    link: "https://chromewebstore.google.com/detail/shortcut-assistant/kmdlofehocppnlkpokdbiaalcelhedef",
+    name: 'Shortcut Assistant',
+    description: '(Not in active development) A Chrome extension for power users of Shortcut, a project management tool. Offers AI analysis of task implementation plans, keyboard shortcuts, and integrated cycle/development time stats.',
+    link: 'https://chromewebstore.google.com/detail/shortcut-assistant/kmdlofehocppnlkpokdbiaalcelhedef',
     productHunt: null
   },
   {
-    name: "PyOutlook",
-    description: "A Python wrapper for the Outlook REST API that enables retrieving and sending emails in a Pythonic manner.",
-    link: "https://github.com/JensAstrup/pyOutlook",
+    name: 'PyOutlook',
+    description: 'A Python wrapper for the Outlook REST API that enables retrieving and sending emails in a Pythonic manner.',
+    link: 'https://github.com/JensAstrup/pyOutlook',
     productHunt: null
   },
   {
-    name: "GBx",
-    description: "A harm reduction iOS app",
-    link: "https://apps.apple.com/us/app/gbx/id6749517571",
+    name: 'GBx',
+    description: 'A harm reduction iOS app',
+    link: 'https://apps.apple.com/us/app/gbx/id6749517571',
     productHunt: {
       href: 'https://www.producthunt.com/products/gbx/launches/gbx?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-gbx',
       imageSrc:
@@ -60,7 +62,7 @@ const projects: Project[] = [
   },
 ]
 
-export function Projects() {
+function Projects(): ReactNode {
   return (
     <section id="projects" className="flex items-center justify-center px-6 py-12">
       <div className="max-w-5xl w-full">
@@ -113,3 +115,6 @@ export function Projects() {
     </section>
   )
 }
+
+export { Projects }
+

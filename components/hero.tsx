@@ -1,6 +1,8 @@
-import Image from "next/image"
+import Image from 'next/image'
+import { ReactNode } from 'react'
 
-export function Hero() {
+
+function Hero(): ReactNode {
   return (
     <section className="min-h-[40vh] flex items-center justify-center px-6 py-6 pt-20 pb-4">
       <div className="max-w-4xl w-full">
@@ -31,3 +33,5 @@ export function Hero() {
     </section>
   )
 }
+
+export { Hero }
