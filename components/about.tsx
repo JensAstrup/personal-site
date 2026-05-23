@@ -1,4 +1,4 @@
-import { ReactNode } from "react"
+import { ReactNode } from 'react'
 
 
 function About(): ReactNode {
@@ -18,11 +18,7 @@ function About(): ReactNode {
               I enjoy systems of any kind, from an internal business process, to a codebase, and even macroeconomics.
             </p>
             <p>
-              Aside from programming, I love dancing. I go out often on the weekends, and if you're familiar with
-              Berlin, and Berghain in particular, I went every three months at one point in life.
-            </p>
-            <p>
-              I also love baking and often bring blueberry muffins, chocolate chip cookies, and apple pie to the office
+              Aside from programming, I also love baking and often bring blueberry muffins, chocolate chip cookies, and apple pie to the office
               (if you weren't sold on working with me yet!). I'm attempting to get my apple strudel perfected, all tips
               are welcome!
             </p>
@@ -35,4 +31,3 @@ function About(): ReactNode {
 }
 
 export { About }
-
