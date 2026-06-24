@@ -1944,11 +1944,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-separator@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@radix-ui/react-separator@npm:1.1.1"
+"@radix-ui/react-separator@npm:1.1.10":
+  version: 1.1.10
+  resolution: "@radix-ui/react-separator@npm:1.1.10"
   dependencies:
-    "@radix-ui/react-primitive": "npm:2.0.1"
+    "@radix-ui/react-primitive": "npm:2.1.6"
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -1959,7 +1959,7 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: 10c0/4b0dc0db4e31d4d71a2a688581707dedb19a9e13378e86dbbab467970c5b271afc189ebba0e340495e15ce0fbbc42445d0be43ff8104de5f5c96cf3b822e801d
+  checksum: 10c0/dcdc8aebe034a13c3d38e65008a38031e8b2c0fdd55d7afff95a683a8ec12711b95d6b6c434baa432c7964df3ad5310e879e4760c4b9afce6c58219a90c72f46
   languageName: node
   linkType: hard
 
@@ -4301,7 +4301,7 @@ __metadata:
     "@radix-ui/react-radio-group": "npm:1.2.2"
     "@radix-ui/react-scroll-area": "npm:1.2.10"
     "@radix-ui/react-select": "npm:2.2.6"
-    "@radix-ui/react-separator": "npm:1.1.1"
+    "@radix-ui/react-separator": "npm:1.1.10"
     "@radix-ui/react-slider": "npm:1.2.2"
     "@radix-ui/react-slot": "npm:1.2.4"
     "@radix-ui/react-switch": "npm:1.1.2"
