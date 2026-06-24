@@ -1944,11 +1944,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-separator@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@radix-ui/react-separator@npm:1.1.1"
+"@radix-ui/react-separator@npm:1.1.10":
+  version: 1.1.10
+  resolution: "@radix-ui/react-separator@npm:1.1.10"
   dependencies:
-    "@radix-ui/react-primitive": "npm:2.0.1"
+    "@radix-ui/react-primitive": "npm:2.1.6"
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -1959,7 +1959,7 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: 10c0/4b0dc0db4e31d4d71a2a688581707dedb19a9e13378e86dbbab467970c5b271afc189ebba0e340495e15ce0fbbc42445d0be43ff8104de5f5c96cf3b822e801d
+  checksum: 10c0/dcdc8aebe034a13c3d38e65008a38031e8b2c0fdd55d7afff95a683a8ec12711b95d6b6c434baa432c7964df3ad5310e879e4760c4b9afce6c58219a90c72f46
   languageName: node
   linkType: hard
 
@@ -4278,72 +4278,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"my-v0-project@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "my-v0-project@workspace:."
-  dependencies:
-    "@hookform/resolvers": "npm:^3.10.0"
-    "@radix-ui/react-accordion": "npm:1.2.2"
-    "@radix-ui/react-alert-dialog": "npm:1.1.4"
-    "@radix-ui/react-aspect-ratio": "npm:1.1.1"
-    "@radix-ui/react-avatar": "npm:1.1.2"
-    "@radix-ui/react-checkbox": "npm:1.1.3"
-    "@radix-ui/react-collapsible": "npm:1.1.2"
-    "@radix-ui/react-context-menu": "npm:2.2.4"
-    "@radix-ui/react-dialog": "npm:1.1.15"
-    "@radix-ui/react-dropdown-menu": "npm:2.1.16"
-    "@radix-ui/react-hover-card": "npm:1.1.17"
-    "@radix-ui/react-label": "npm:2.1.1"
-    "@radix-ui/react-menubar": "npm:1.1.4"
-    "@radix-ui/react-navigation-menu": "npm:1.2.3"
-    "@radix-ui/react-popover": "npm:1.1.15"
-    "@radix-ui/react-progress": "npm:1.1.8"
-    "@radix-ui/react-radio-group": "npm:1.2.2"
-    "@radix-ui/react-scroll-area": "npm:1.2.10"
-    "@radix-ui/react-select": "npm:2.2.6"
-    "@radix-ui/react-separator": "npm:1.1.1"
-    "@radix-ui/react-slider": "npm:1.2.2"
-    "@radix-ui/react-slot": "npm:1.2.4"
-    "@radix-ui/react-switch": "npm:1.1.2"
-    "@radix-ui/react-tabs": "npm:1.1.13"
-    "@radix-ui/react-toast": "npm:1.2.4"
-    "@radix-ui/react-toggle": "npm:1.1.10"
-    "@radix-ui/react-toggle-group": "npm:1.1.1"
-    "@radix-ui/react-tooltip": "npm:1.1.6"
-    "@tailwindcss/postcss": "npm:^4.2.2"
-    "@types/node": "npm:^22"
-    "@types/react": "npm:^19"
-    "@types/react-dom": "npm:^19"
-    "@vercel/analytics": "npm:latest"
-    autoprefixer: "npm:^10.4.27"
-    class-variance-authority: "npm:^0.7.1"
-    clsx: "npm:^2.1.1"
-    cmdk: "npm:1.0.4"
-    date-fns: "npm:4.1.0"
-    embla-carousel-react: "npm:8.6.0"
-    eslint: "npm:^10.3.0"
-    eslint-config-yenz: "npm:10.1.2"
-    input-otp: "npm:1.4.1"
-    lucide-react: "npm:^0.575.0"
-    next: "npm:16.2.6"
-    next-themes: "npm:^0.4.6"
-    react: "npm:19.2.0"
-    react-day-picker: "npm:9.14.0"
-    react-dom: "npm:19.2.0"
-    react-hook-form: "npm:^7.76.1"
-    react-resizable-panels: "npm:^4.7.6"
-    recharts: "npm:2.15.4"
-    sonner: "npm:^2.0.7"
-    tailwind-merge: "npm:^2.5.5"
-    tailwindcss: "npm:^4.1.9"
-    tailwindcss-animate: "npm:^1.0.7"
-    tw-animate-css: "npm:1.4.0"
-    typescript: "npm:^5"
-    vaul: "npm:^1.1.2"
-    zod: "npm:4.3.6"
-  languageName: unknown
-  linkType: soft
-
 "nanoid@npm:^3.3.12":
   version: 3.3.12
   resolution: "nanoid@npm:3.3.12"
@@ -4515,6 +4449,73 @@ __metadata:
   languageName: node
   linkType: hard
 
+"personal-site@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "personal-site@workspace:."
+  dependencies:
+    "@hookform/resolvers": "npm:^3.10.0"
+    "@radix-ui/react-accordion": "npm:1.2.2"
+    "@radix-ui/react-alert-dialog": "npm:1.1.4"
+    "@radix-ui/react-aspect-ratio": "npm:1.1.1"
+    "@radix-ui/react-avatar": "npm:1.1.2"
+    "@radix-ui/react-checkbox": "npm:1.1.3"
+    "@radix-ui/react-collapsible": "npm:1.1.2"
+    "@radix-ui/react-context-menu": "npm:2.2.4"
+    "@radix-ui/react-dialog": "npm:1.1.15"
+    "@radix-ui/react-dropdown-menu": "npm:2.1.16"
+    "@radix-ui/react-hover-card": "npm:1.1.17"
+    "@radix-ui/react-label": "npm:2.1.1"
+    "@radix-ui/react-menubar": "npm:1.1.4"
+    "@radix-ui/react-navigation-menu": "npm:1.2.3"
+    "@radix-ui/react-popover": "npm:1.1.15"
+    "@radix-ui/react-progress": "npm:1.1.8"
+    "@radix-ui/react-radio-group": "npm:1.2.2"
+    "@radix-ui/react-scroll-area": "npm:1.2.10"
+    "@radix-ui/react-select": "npm:2.2.6"
+    "@radix-ui/react-separator": "npm:1.1.10"
+    "@radix-ui/react-slider": "npm:1.2.2"
+    "@radix-ui/react-slot": "npm:1.2.4"
+    "@radix-ui/react-switch": "npm:1.1.2"
+    "@radix-ui/react-tabs": "npm:1.1.13"
+    "@radix-ui/react-toast": "npm:1.2.4"
+    "@radix-ui/react-toggle": "npm:1.1.10"
+    "@radix-ui/react-toggle-group": "npm:1.1.1"
+    "@radix-ui/react-tooltip": "npm:1.1.6"
+    "@tailwindcss/postcss": "npm:^4.2.2"
+    "@types/node": "npm:^22"
+    "@types/react": "npm:^19"
+    "@types/react-dom": "npm:^19"
+    "@vercel/analytics": "npm:latest"
+    autoprefixer: "npm:^10.4.27"
+    class-variance-authority: "npm:^0.7.1"
+    clsx: "npm:^2.1.1"
+    cmdk: "npm:1.0.4"
+    date-fns: "npm:4.1.0"
+    embla-carousel-react: "npm:8.6.0"
+    eslint: "npm:^10.3.0"
+    eslint-config-yenz: "npm:10.1.2"
+    input-otp: "npm:1.4.1"
+    lucide-react: "npm:^0.575.0"
+    next: "npm:16.2.6"
+    next-themes: "npm:^0.4.6"
+    postcss: "npm:^8.5"
+    react: "npm:19.2.0"
+    react-day-picker: "npm:9.14.0"
+    react-dom: "npm:19.2.0"
+    react-hook-form: "npm:^7.76.1"
+    react-resizable-panels: "npm:^4.7.6"
+    recharts: "npm:2.15.4"
+    sonner: "npm:^2.0.7"
+    tailwind-merge: "npm:^2.5.5"
+    tailwindcss: "npm:^4.1.9"
+    tailwindcss-animate: "npm:^1.0.7"
+    tw-animate-css: "npm:1.4.0"
+    typescript: "npm:^5"
+    vaul: "npm:^1.1.2"
+    zod: "npm:4.3.6"
+  languageName: unknown
+  linkType: soft
+
 "picocolors@npm:^1.0.0, picocolors@npm:^1.1.1":
   version: 1.1.1
   resolution: "picocolors@npm:1.1.1"
@@ -4547,7 +4548,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.5.6":
+"postcss@npm:^8.5, postcss@npm:^8.5.6":
   version: 8.5.15
   resolution: "postcss@npm:8.5.15"
   dependencies:
