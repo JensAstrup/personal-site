@@ -4498,7 +4498,6 @@ __metadata:
     lucide-react: "npm:^0.575.0"
     next: "npm:16.2.6"
     next-themes: "npm:^0.4.6"
-    postcss: "npm:^8.5"
     react: "npm:19.2.0"
     react-day-picker: "npm:9.14.0"
     react-dom: "npm:19.2.0"
@@ -4548,7 +4547,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.5, postcss@npm:^8.5.6":
+"postcss@npm:^8.5.6":
   version: 8.5.15
   resolution: "postcss@npm:8.5.15"
   dependencies:
