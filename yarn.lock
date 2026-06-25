@@ -2346,22 +2346,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-tooltip@npm:1.1.6":
-  version: 1.1.6
-  resolution: "@radix-ui/react-tooltip@npm:1.1.6"
+"@radix-ui/react-tooltip@npm:1.2.10":
+  version: 1.2.10
+  resolution: "@radix-ui/react-tooltip@npm:1.2.10"
   dependencies:
-    "@radix-ui/primitive": "npm:1.1.1"
-    "@radix-ui/react-compose-refs": "npm:1.1.1"
-    "@radix-ui/react-context": "npm:1.1.1"
-    "@radix-ui/react-dismissable-layer": "npm:1.1.3"
-    "@radix-ui/react-id": "npm:1.1.0"
-    "@radix-ui/react-popper": "npm:1.2.1"
-    "@radix-ui/react-portal": "npm:1.1.3"
-    "@radix-ui/react-presence": "npm:1.1.2"
-    "@radix-ui/react-primitive": "npm:2.0.1"
-    "@radix-ui/react-slot": "npm:1.1.1"
-    "@radix-ui/react-use-controllable-state": "npm:1.1.0"
-    "@radix-ui/react-visually-hidden": "npm:1.1.1"
+    "@radix-ui/primitive": "npm:1.1.4"
+    "@radix-ui/react-compose-refs": "npm:1.1.3"
+    "@radix-ui/react-context": "npm:1.1.4"
+    "@radix-ui/react-dismissable-layer": "npm:1.1.13"
+    "@radix-ui/react-id": "npm:1.1.2"
+    "@radix-ui/react-popper": "npm:1.3.1"
+    "@radix-ui/react-portal": "npm:1.1.12"
+    "@radix-ui/react-presence": "npm:1.1.6"
+    "@radix-ui/react-primitive": "npm:2.1.6"
+    "@radix-ui/react-slot": "npm:1.3.0"
+    "@radix-ui/react-use-controllable-state": "npm:1.2.3"
+    "@radix-ui/react-visually-hidden": "npm:1.2.6"
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -2372,7 +2372,7 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: 10c0/6e2e83b2ef448bcc486e8f73bfd303b18b723f86239f40f5e06cf930f074494f6fefb1a48bcaf24b215ec7bd7f87f6884d1ef9394cddcf50d1b30e26f9e15093
+  checksum: 10c0/2fd70fbd660ec8d3b13949bb3020166a14394b422ff992b8f5eb50a3f4b17444282f88cba350f22d398e5370c098c986f0236b29ab6e2451d73bf75ae3498fb9
   languageName: node
   linkType: hard
 
@@ -2727,6 +2727,25 @@ __metadata:
     "@types/react-dom":
       optional: true
   checksum: 10c0/cf86a37f1cbee50a964056f3dc4f6bb1ee79c76daa321f913aa20ff3e1ccdfafbf2b114d7bb616aeefc7c4b895e6ca898523fdb67710d89bd5d8edb739a0d9b6
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-visually-hidden@npm:1.2.6":
+  version: 1.2.6
+  resolution: "@radix-ui/react-visually-hidden@npm:1.2.6"
+  dependencies:
+    "@radix-ui/react-primitive": "npm:2.1.6"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+    react-dom: ^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10c0/24f8bbf63d007a34af9c816558019d0e9f3db89aa9de0b29bdd8f86647a351db9d82ed8510bbb5e4c122afaf3606b9bfcd626c3757c56927819e9e4ea8feb6e1
   languageName: node
   linkType: hard
 
@@ -4626,7 +4645,7 @@ __metadata:
     "@radix-ui/react-toast": "npm:1.2.4"
     "@radix-ui/react-toggle": "npm:1.1.10"
     "@radix-ui/react-toggle-group": "npm:1.1.1"
-    "@radix-ui/react-tooltip": "npm:1.1.6"
+    "@radix-ui/react-tooltip": "npm:1.2.10"
     "@tailwindcss/postcss": "npm:^4.2.2"
     "@types/node": "npm:^22"
     "@types/react": "npm:^19"
@@ -4644,6 +4663,7 @@ __metadata:
     lucide-react: "npm:^0.575.0"
     next: "npm:16.2.6"
     next-themes: "npm:^0.4.6"
+    postcss: "npm:^8.5"
     react: "npm:19.2.0"
     react-day-picker: "npm:9.14.0"
     react-dom: "npm:19.2.0"
@@ -4693,7 +4713,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.5.6":
+"postcss@npm:^8.5, postcss@npm:^8.5.6":
   version: 8.5.15
   resolution: "postcss@npm:8.5.15"
   dependencies:
