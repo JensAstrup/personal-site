@@ -26,6 +26,17 @@ const projects: Project[] = [
     },
   },
   {
+    name: 'GBx',
+    description: 'A harm reduction iOS app',
+    link: 'https://apps.apple.com/us/app/gbx/id6749517571',
+    productHunt: {
+      href: 'https://www.producthunt.com/products/gbx/launches/gbx?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-gbx',
+      imageSrc:
+        'https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1027854&theme=dark&t=1773975385430',
+      imageAlt: 'GBx - Dose Responsibly | Product Hunt',
+    },
+  },
+  {
     name: 'Trawl',
     description: 'A VS Code extension that auto-completes package names and versions while highlighting outdated dependencies.',
     link: 'https://github.com/VoidWorksIO/trawl',
@@ -48,18 +59,7 @@ const projects: Project[] = [
     description: 'A Python wrapper for the Outlook REST API that enables retrieving and sending emails in a Pythonic manner.',
     link: 'https://github.com/JensAstrup/pyOutlook',
     productHunt: null
-  },
-  {
-    name: 'GBx',
-    description: 'A harm reduction iOS app',
-    link: 'https://apps.apple.com/us/app/gbx/id6749517571',
-    productHunt: {
-      href: 'https://www.producthunt.com/products/gbx/launches/gbx?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-gbx',
-      imageSrc:
-        'https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1027854&theme=dark&t=1773975385430',
-      imageAlt: 'GBx - Dose Responsibly | Product Hunt',
-    },
-  },
+  }
 ]
 
 function Projects(): ReactNode {
