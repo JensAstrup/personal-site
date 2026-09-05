@@ -15,15 +15,10 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: 'Spades',
-    description: 'A pointing poker application built to integrate seamlessly with Linear to provide teams with an easy way to foster discussion and easily set effort estimations.',
-    link: 'https://spades.poker',
-    productHunt: {
-      href: 'https://www.producthunt.com/products/ace-of-spades/launches/spades-2-0-2?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-spades-2-0-2',
-      imageSrc:
-        'https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=954836&theme=dark&t=1773975321733',
-      imageAlt: 'Spades 2.0 - Seamless Issue Estimation with Spades | Product Hunt',
-    },
+    name: 'Checkmark',
+    description: 'A to-do application built for keyboard power users.',
+    link: 'https://checkmark.day',
+    productHunt: null
   },
   {
     name: 'GBx',
@@ -34,6 +29,17 @@ const projects: Project[] = [
       imageSrc:
         'https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1027854&theme=dark&t=1773975385430',
       imageAlt: 'GBx - Dose Responsibly | Product Hunt',
+    },
+  },
+  {
+    name: 'Spades',
+    description: 'A pointing poker application built to integrate seamlessly with Linear to provide teams with an easy way to foster discussion and easily set effort estimations.',
+    link: 'https://spades.poker',
+    productHunt: {
+      href: 'https://www.producthunt.com/products/ace-of-spades/launches/spades-2-0-2?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-spades-2-0-2',
+      imageSrc:
+        'https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=954836&theme=dark&t=1773975321733',
+      imageAlt: 'Spades 2.0 - Seamless Issue Estimation with Spades | Product Hunt',
     },
   },
   {
