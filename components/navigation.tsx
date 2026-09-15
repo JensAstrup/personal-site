@@ -18,6 +18,14 @@ function Navigation(): React.JSX.Element {
           Projects
         </a>
         <a
+          href="https://github.com/JensAstrup"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white text-sm font-medium hover:text-white/70 transition-colors sm:text-base md:text-lg"
+        >
+          GitHub
+        </a>
+        <a
           href="https://startupdeveloper.substack.com/"
           target="_blank"
           rel="noopener noreferrer"
